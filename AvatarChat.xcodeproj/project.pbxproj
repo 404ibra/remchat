@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E3E54D02BB2F9940086AB86 /* MyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E54CF2BB2F9940086AB86 /* MyProfileViewModel.swift */; };
 		6E7EF10D2BAD91A300073F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF10C2BAD91A300073F21 /* AppDelegate.swift */; };
 		6E7EF10F2BAD91A300073F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF10E2BAD91A300073F21 /* SceneDelegate.swift */; };
 		6E7EF1112BAD91A300073F21 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF1102BAD91A300073F21 /* ViewController.swift */; };
 		6E7EF1142BAD91A300073F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7EF1122BAD91A300073F21 /* Main.storyboard */; };
 		6E7EF1162BAD91A500073F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7EF1152BAD91A500073F21 /* Assets.xcassets */; };
 		6E7EF1192BAD91A500073F21 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6E7EF1172BAD91A500073F21 /* LaunchScreen.storyboard */; };
+		6E7EF1252BAD927E00073F21 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF1242BAD927E00073F21 /* HomeViewModel.swift */; };
+		6E7EF1272BAD928B00073F21 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF1262BAD928B00073F21 /* HomeViewController.swift */; };
+		6E7EF12D2BAD9CEF00073F21 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = 6E7EF12C2BAD9CEF00073F21 /* SnapKit */; };
+		6E7EF1302BAD9E5600073F21 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = 6E7EF12F2BAD9E5600073F21 /* Kingfisher */; };
+		6E7EF1322BADB3D200073F21 /* HomeStoryCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF1312BADB3D200073F21 /* HomeStoryCell.swift */; };
+		6E7EF1352BADBF9400073F21 /* PreviewTheaterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF1342BADBF9400073F21 /* PreviewTheaterViewController.swift */; };
+		6E7EF1382BB156A600073F21 /* MyProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF1372BB156A600073F21 /* MyProfileViewController.swift */; };
+		6E7EF13B2BB1BFBE00073F21 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF13A2BB1BFBE00073F21 /* UIColor+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E3E54CF2BB2F9940086AB86 /* MyProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewModel.swift; sourceTree = "<group>"; };
 		6E7EF1092BAD91A300073F21 /* AvatarChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7EF10C2BAD91A300073F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		6E7EF10E2BAD91A300073F21 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,12 @@
 		6E7EF1152BAD91A500073F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6E7EF1182BAD91A500073F21 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6E7EF11A2BAD91A500073F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6E7EF1242BAD927E00073F21 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		6E7EF1262BAD928B00073F21 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		6E7EF1312BADB3D200073F21 /* HomeStoryCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeStoryCell.swift; sourceTree = "<group>"; };
+		6E7EF1342BADBF9400073F21 /* PreviewTheaterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewTheaterViewController.swift; sourceTree = "<group>"; };
+		6E7EF1372BB156A600073F21 /* MyProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewController.swift; sourceTree = "<group>"; };
+		6E7EF13A2BB1BFBE00073F21 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7EF1302BAD9E5600073F21 /* Kingfisher in Frameworks */,
+				6E7EF12D2BAD9CEF00073F21 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,6 +74,8 @@
 		6E7EF10B2BAD91A300073F21 /* AvatarChat */ = {
 			isa = PBXGroup;
 			children = (
+				6E7EF1392BB1BF9800073F21 /* Extensions+UIKit */,
+				6E7EF1202BAD920200073F21 /* Modules */,
 				6E7EF10C2BAD91A300073F21 /* AppDelegate.swift */,
 				6E7EF10E2BAD91A300073F21 /* SceneDelegate.swift */,
 				6E7EF1102BAD91A300073F21 /* ViewController.swift */,
@@ -65,6 +85,59 @@
 				6E7EF11A2BAD91A500073F21 /* Info.plist */,
 			);
 			path = AvatarChat;
+			sourceTree = "<group>";
+		};
+		6E7EF1202BAD920200073F21 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				6E7EF1362BB1568D00073F21 /* Profile */,
+				6E7EF1332BADBF5700073F21 /* PreviewTheater */,
+				6E7EF1282BAD9B3800073F21 /* StoryCards */,
+				6E7EF1232BAD922C00073F21 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		6E7EF1232BAD922C00073F21 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				6E7EF1242BAD927E00073F21 /* HomeViewModel.swift */,
+				6E7EF1262BAD928B00073F21 /* HomeViewController.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		6E7EF1282BAD9B3800073F21 /* StoryCards */ = {
+			isa = PBXGroup;
+			children = (
+				6E7EF1312BADB3D200073F21 /* HomeStoryCell.swift */,
+			);
+			path = StoryCards;
+			sourceTree = "<group>";
+		};
+		6E7EF1332BADBF5700073F21 /* PreviewTheater */ = {
+			isa = PBXGroup;
+			children = (
+				6E7EF1342BADBF9400073F21 /* PreviewTheaterViewController.swift */,
+			);
+			path = PreviewTheater;
+			sourceTree = "<group>";
+		};
+		6E7EF1362BB1568D00073F21 /* Profile */ = {
+			isa = PBXGroup;
+			children = (
+				6E7EF1372BB156A600073F21 /* MyProfileViewController.swift */,
+				6E3E54CF2BB2F9940086AB86 /* MyProfileViewModel.swift */,
+			);
+			path = Profile;
+			sourceTree = "<group>";
+		};
+		6E7EF1392BB1BF9800073F21 /* Extensions+UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6E7EF13A2BB1BFBE00073F21 /* UIColor+Extension.swift */,
+			);
+			path = "Extensions+UIKit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +156,10 @@
 			dependencies = (
 			);
 			name = AvatarChat;
+			packageProductDependencies = (
+				6E7EF12C2BAD9CEF00073F21 /* SnapKit */,
+				6E7EF12F2BAD9E5600073F21 /* Kingfisher */,
+			);
 			productName = AvatarChat;
 			productReference = 6E7EF1092BAD91A300073F21 /* AvatarChat.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +188,10 @@
 				Base,
 			);
 			mainGroup = 6E7EF1002BAD91A300073F21;
+			packageReferences = (
+				6E7EF12B2BAD9CEF00073F21 /* XCRemoteSwiftPackageReference "SnapKit" */,
+				6E7EF12E2BAD9E5600073F21 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = 6E7EF10A2BAD91A300073F21 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -138,9 +219,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7EF1322BADB3D200073F21 /* HomeStoryCell.swift in Sources */,
+				6E7EF1272BAD928B00073F21 /* HomeViewController.swift in Sources */,
+				6E3E54D02BB2F9940086AB86 /* MyProfileViewModel.swift in Sources */,
 				6E7EF1112BAD91A300073F21 /* ViewController.swift in Sources */,
+				6E7EF13B2BB1BFBE00073F21 /* UIColor+Extension.swift in Sources */,
 				6E7EF10D2BAD91A300073F21 /* AppDelegate.swift in Sources */,
 				6E7EF10F2BAD91A300073F21 /* SceneDelegate.swift in Sources */,
+				6E7EF1352BADBF9400073F21 /* PreviewTheaterViewController.swift in Sources */,
+				6E7EF1382BB156A600073F21 /* MyProfileViewController.swift in Sources */,
+				6E7EF1252BAD927E00073F21 /* HomeViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,7 +304,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -270,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -286,7 +374,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = KC9Z5ZJF65;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AvatarChat/Info.plist;
@@ -295,6 +383,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -314,7 +403,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 1.0;
 				DEVELOPMENT_TEAM = KC9Z5ZJF65;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = AvatarChat/Info.plist;
@@ -323,6 +412,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -358,6 +448,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E7EF12B2BAD9CEF00073F21 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.0;
+			};
+		};
+		6E7EF12E2BAD9E5600073F21 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E7EF12C2BAD9CEF00073F21 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E7EF12B2BAD9CEF00073F21 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+		6E7EF12F2BAD9E5600073F21 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E7EF12E2BAD9E5600073F21 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E7EF1012BAD91A300073F21 /* Project object */;
 }
