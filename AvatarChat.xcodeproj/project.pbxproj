@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6E1E47362BB3F38D00E956A9 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E1E47352BB3F38D00E956A9 /* FeedViewController.swift */; };
 		6E3E54D02BB2F9940086AB86 /* MyProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E3E54CF2BB2F9940086AB86 /* MyProfileViewModel.swift */; };
 		6E7EF10D2BAD91A300073F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF10C2BAD91A300073F21 /* AppDelegate.swift */; };
 		6E7EF10F2BAD91A300073F21 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EF10E2BAD91A300073F21 /* SceneDelegate.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6E1E47352BB3F38D00E956A9 /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		6E3E54CF2BB2F9940086AB86 /* MyProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProfileViewModel.swift; sourceTree = "<group>"; };
 		6E7EF1092BAD91A300073F21 /* AvatarChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AvatarChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6E7EF10C2BAD91A300073F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +57,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6E1E47342BB3F37D00E956A9 /* Feed */ = {
+			isa = PBXGroup;
+			children = (
+				6E1E47352BB3F38D00E956A9 /* FeedViewController.swift */,
+			);
+			path = Feed;
+			sourceTree = "<group>";
+		};
 		6E7EF1002BAD91A300073F21 = {
 			isa = PBXGroup;
 			children = (
@@ -90,6 +100,7 @@
 		6E7EF1202BAD920200073F21 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				6E1E47342BB3F37D00E956A9 /* Feed */,
 				6E7EF1362BB1568D00073F21 /* Profile */,
 				6E7EF1332BADBF5700073F21 /* PreviewTheater */,
 				6E7EF1282BAD9B3800073F21 /* StoryCards */,
@@ -226,6 +237,7 @@
 				6E7EF13B2BB1BFBE00073F21 /* UIColor+Extension.swift in Sources */,
 				6E7EF10D2BAD91A300073F21 /* AppDelegate.swift in Sources */,
 				6E7EF10F2BAD91A300073F21 /* SceneDelegate.swift in Sources */,
+				6E1E47362BB3F38D00E956A9 /* FeedViewController.swift in Sources */,
 				6E7EF1352BADBF9400073F21 /* PreviewTheaterViewController.swift in Sources */,
 				6E7EF1382BB156A600073F21 /* MyProfileViewController.swift in Sources */,
 				6E7EF1252BAD927E00073F21 /* HomeViewModel.swift in Sources */,
