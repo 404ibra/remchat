@@ -4,59 +4,52 @@
 //
 //  Created by İbrahim Aktaş on 27.03.2024.
 //
-
 import UIKit
 
-class FeedViewController: UIViewController {
-
-    let feedPost = UILabel()
-    let horizontalStack = UIStackView()
-    let circle = UIView()
+final class FeedViewController: UIViewController {
+    
+    let image = UIImageView()
+    let image2 = UIImageView()
+    let stackView = UIStackView()
+    let scrollView = UIScrollView()
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        setupFeedPost()
-        setupProfilePhoto()
-        setupStackView()
-        view.backgroundColor = .white
+        setupViews()
     }
-    
-    
-    func setupFeedPost() {
-        view.addSubview(feedPost)
-        feedPost.text = "Bu bir test postudur. İlk post hayırlı olsun. Bundan sonraki süreci henüz düşünmedim. :) Nasıl bir rutin oluşturacağımı kervan yolda düzülür..."
-        feedPost.numberOfLines = 0
-        feedPost.snp.makeConstraints { make in
-            make.leading.equalToSuperview().inset(16)
-            
- 
-        }
-    }
-    
-    func setupStackView() {
+}
 
-        view.addSubview(horizontalStack)
-        horizontalStack.axis = .horizontal
-        horizontalStack.addArrangedSubview(circle)
-        horizontalStack.addArrangedSubview(feedPost)
-        horizontalStack.spacing = 8
-        horizontalStack.distribution = .fillEqually
-        horizontalStack.snp.makeConstraints { make in
-            make.width.equalTo(400)
-            make.height.equalTo(400)
+extension FeedViewController {
+    func setupViews() {
+        view.addSubview(scrollView)
         
+        scrollView.addSubview(stackView)
+        stackView.axis = .vertical
+     
+        stackView.addArrangedSubview(image)
+        stackView.addArrangedSubview(image2)
+        
+        image.image = UIImage(named: "ocean")
+        image2.image = UIImage(named: "cave")
+        
+        scrollView.snp.makeConstraints { make in
+            make.leading.trailing.equalToSuperview()
+            make.height.equalTo(100)
         }
-    }
-    
-    func setupProfilePhoto() {
-        view.addSubview(circle)
-        circle.backgroundColor = .red
-        circle.snp.makeConstraints { make in
-            make.height.equalTo(40)
-            make.width.equalTo(40)
-          
+        
+        stackView.snp.makeConstraints { make in
+            make.edges.equalToSuperview()
         }
+        
+        image.snp.makeConstraints { make in
+            make.width.equalTo(UIScreen.main.bounds.width)
+            make.height.equalTo(800)
+        }
+        
+        image2.snp.makeConstraints { make in
+            make.width.equalTo(UIScreen.main.bounds.width)
+            make.height.equalTo(800)
+        }
+        
     }
-
- 
 }
